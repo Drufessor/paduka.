@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Ketan Susu PAduka</title>
+    <link rel="icon" href="/src/logo2-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="src/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+</head>
+<body class="bg-gray-100">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <!-- Logo and title -->
+            <div class="text-3xl font-extrabold text-gray-800 flex items-center">
+                <img src="/src/logo-removebg-preview.png" alt="Bouquet Icon" class="w-8 h-8 mr-2">
+                Ketan Susu Paduka
+            </div>
+            
+            <!-- Hamburger button for mobile -->
+            <button class="md:hidden text-gray-800 text-2xl focus:outline-none" id="menuButton">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <!-- Menu items -->
+            <ul class="hidden md:flex space-x-6" id="navLinks">
+                <li><a class="text-gray-800 hover:text-gray-600 text-lg font-semibold" href="#produk" id="produkLink">Produk</a></li>
+                <li><a class="text-gray-800 hover:text-gray-600 text-lg font-semibold" href="https://maps.app.goo.gl/QKr7KYHZSkfYEYc47">Location</a></li>
+                <li><a class="text-red-600 hover:text-red-400 text-lg font-semibold" href="https://api.whatsapp.com/send?phone=6287785404712">For Business</a></li>
+            </ul>
+        </div>
+        
+        <!-- Dropdown for mobile -->
+        <div class="md:hidden hidden" id="mobileMenu">
+            <ul class="space-y-4 p-4">
+                <li><a class="text-gray-800 hover:text-gray-600 text-lg font-semibold" href="#produk" id="produkLinkMobile">Produk</a></li>
+                <li><a class="text-gray-800 hover:text-gray-600 text-lg font-semibold" href="https://maps.app.goo.gl/QKr7KYHZSkfYEYc47">Location</a></li>
+                <li><a class="text-red-600 hover:text-red-400 text-lg font-semibold" href="https://api.whatsapp.com/send?phone=6281381512964">For Business</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-amber-300 py-12">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2">
+                <img alt="" class="h-auto max-w-full md:max-w-[30vw] transform rotate-[-30deg]" src="/src/ketansusu2-removebg-preview.png" style="height: auto; max-height: 70vh;" />
+            </div>
+            <div class="md:w-1/2 text-center md:text-left mt-8 md:mt-0">
+                <h1 id="typing-effect" class="text-3xl font-bold text-gray-800">Ketan Susu Paduka</h1>
+                <p class="mt-4 text-gray-600">Ingin mencoba camilan yang simpel namun penuh cita rasa? Ketan Susu bisa jadi pilihan yang sempurna untuk memanjakan lidah Anda!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Section -->
+    <section id="produk" class="container mx-auto px-4 py-8">
+        <div class="flex justify-between items-center mb-4">
+            <h2 class="text-2xl font-bold text-gray-800">3 Pilihan Produk</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            <!-- Product Card 1 -->
+            <a href="https://api.whatsapp.com/send?phone=6281381512964&text=Halo,%20saya%20ingin%20pesan%20bouquet!" class="product-card mx-auto border-4 border-gray-300 rounded-lg shadow-lg max-w-full h-auto">
+                <img alt="Bouquet of flowers" src="/src/ketansusu1.jpg"/>
+                <div class="p-4 text-center">
+                    <h3 class="text-xl font-semibold text-gray-800">Ketan Susu Original</h3>
+                    <p class="text-gray-600">Rp. 15,000</p>
+                </div>
+                <div class="product-overlay">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>Click Untuk Pesan</span>
+                </div>
+            </a>
+            <!-- Product Card 2 -->
+            <a href="https://api.whatsapp.com/send?phone=6281381512964&text=Halo,%20saya%20ingin%20pesan%20bouquet!" class="product-card mx-auto border-4 border-gray-300 rounded-lg shadow-lg max-w-full h-auto">
+                <img alt="Bouquet of flowers" src="/src/ketansusu2.jpg"/>
+                <div class="p-4 text-center">
+                    <h3 class="text-xl font-semibold text-gray-800">Ketan Susu Keju</h3>
+                    <p class="text-gray-600">Rp 20,000</p>
+                </div>
+                <div class="product-overlay">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>Click Untuk Pesan Ketan</span>
+                </div>
+            </a>
+             <!-- Product Card 2 -->
+                <a href="https://api.whatsapp.com/send?phone=6281381512964&text=Halo,%20saya%20ingin%20pesan%20bouquet!" class="product-card mx-auto border-4 border-gray-300 rounded-lg shadow-lg max-w-full h-auto">
+                        <img alt="Bouquet of flowers" src="/src/singkongpaduka.jpg"/>
+                        <div class="p-4 text-center">
+                            <h3 class="text-xl font-semibold text-gray-800">Singkong Paduka</h3>
+                            <p class="text-gray-600">Rp 15,000</p>
+                        </div>
+                        <div class="product-overlay">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>Click Untuk Pesan Singkong</span>
+                        </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2024 Ketan Susu Paduka. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script >
+        
+    </script>
+</body>
+</html>
